@@ -195,7 +195,7 @@ customElements.define('lit-fractal', class LitFractal extends FractalElement {
                 <div slot="app-top-left">
                     <fractal-button name="restore" @click="${this.restore}" title="Restore DB"></fractal-button>
                 </div>
-                <div slot="app-top" class="header"><a target="_blank" href="https://ru.wikipedia.org/wiki/L-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0">Фракталы 2022</a></div>
+                <div slot="app-top" class="header"><a target="_blank" href="https://ru.wikipedia.org/wiki/L-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0">Мандельброт 2025</a></div>
                 <div slot="app-top">[${this._length}]</div>
                 <div slot="app-top-right">
                     <fractal-button name="undo" @click="${() => this.getCommands(this._id, true)}" title="undo changes"></fractal-button>
